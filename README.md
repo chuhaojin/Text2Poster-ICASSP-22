@@ -1,5 +1,7 @@
 # Text2Poster-ICASSP-22
-The souce code of the ICASPP-2022 paper "Text2Poster: Laying Out Stylized Texts on Retrieved Images".
+The inference code of the ICASPP-2022 paper "Text2Poster: Laying Out Stylized Texts on Retrieved Images".
+
+![framework](framework.png)
 
 Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
@@ -9,7 +11,9 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 We recommend you use anaconda to run our Text2Poster. Run the following command to install the dependent libraries:
 
-`bash install_package.sh`
+```shell
+bash install_package.sh
+```
 
 
 
@@ -17,7 +21,9 @@ We recommend you use anaconda to run our Text2Poster. Run the following command 
 
 We provide two example, Run the following command to run our Text2Poster:
 
-`bash run.sh`
+```sh
+bash run.sh
+```
 
 Some parameters:
 
@@ -49,6 +55,39 @@ torchvision=0.11.0
 
 
 
-### Contact
+# Examples
+
+```json
+// input text elements
+{
+    "sentences": [
+        ["冬日初雪舞会", 55],
+        ["雪花飞舞，像音乐和歌声围绕", 40],
+        ["与朋友相聚，享受欢乐时光，我们不见不散", 30]
+    ],
+    "background_query": "冬日初雪舞会"
+}
+```
+
+<img src="example/outputs_1/0/poster.jpg" alt="poster" style="zoom:40%;" /><img src="example/outputs_1/1/poster.jpg" alt="poster" style="zoom:40%;" />
+
+
+
+```json
+// input text elements
+{
+    "sentences": [
+        ["ICASSP 2022", 55],
+        ["May 22 - 27, 2022, Singapore", 40]
+    ],
+    "background_query": "新加坡"
+}
+```
+
+<img src="example/outputs_2/0/poster.jpg" alt="poster" style="zoom:33.4%;" /><img src="example/outputs_2/2/poster.jpg" alt="poster" style="zoom:40%;" />
+
+
+
+## Contact
 
 My Email is: jinchuhao@ruc.edu.cn
