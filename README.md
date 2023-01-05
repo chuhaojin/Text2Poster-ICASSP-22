@@ -56,9 +56,8 @@ torchvision=0.11.0
 
 
 # Examples
-
+**input text elements 1**
 ```json
-// input text elements
 {
     "sentences": [
         ["冬日初雪舞会", 55],
@@ -72,9 +71,8 @@ torchvision=0.11.0
 <img src="example/outputs_1/0/poster.jpg" alt="poster" style="zoom:40%;" /><img src="example/outputs_1/1/poster.jpg" alt="poster" style="zoom:40%;" />
 
 
-
+**input text elements 2**
 ```json
-// input text elements
 {
     "sentences": [
         ["ICASSP 2022", 55],
