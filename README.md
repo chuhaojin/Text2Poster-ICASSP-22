@@ -41,7 +41,7 @@ Some parameters:
 
 - Our background image retrieval is implemented by a Chinese pre-trained  text-image retrieval model [BriVL](https://github.com/BAAI-WuDao/BriVL).
 - You also can extract text and image embedding by the API of BriVL at  [here](https://github.com/chuhaojin/WenLan-api-document). 
-- A text-image retrieval application is provided at [here](https://github.com/chuhaojin/BriVL-BUA-applications).
+- A text-image retrieval application is provided at [here](http://buling.wudaoai.cn/pc/htmls/index.html). The core code of this application at [here](https://github.com/chuhaojin/BriVL-BUA-applications).
 
 
 
