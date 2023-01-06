@@ -85,6 +85,17 @@ torchvision=0.11.0
 <img src="example/outputs_2/0/poster.jpg" alt="poster" style="zoom:33.4%;" /><img src="example/outputs_2/2/poster.jpg" alt="poster" style="zoom:40%;" />
 
 
+## Reference
+```bibtex
+@inproceedings{jin2022text2poster,
+  title={Text2Poster: Laying Out Stylized Texts on Retrieved Images},
+  author={Jin, Chuhao and Xu, Hongteng and Song, Ruihua and Lu, Zhiwu},
+  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={4823--4827},
+  year={2022},
+  organization={IEEE}
+}
+```
 
 ## Contact
 
