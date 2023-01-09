@@ -84,7 +84,7 @@ torchvision=0.11.0
 }
 ```
 
-<img src="./example/outputs_1/0/poster.jpg" alt="poster" height="280" /><img src="./example/outputs_1/1/poster.jpg" alt="poster" height="280" />
+<img src="./example/outputs_1/0/poster.jpg" alt="poster" height="250" /><img src="./example/outputs_1/1/poster.jpg" alt="poster" height="250" />
 
 
 
@@ -100,7 +100,7 @@ torchvision=0.11.0
 }
 ```
 
-<img src="./example/outputs_2/0/poster.jpg" alt="poster" height="280" /><img src="./example/outputs_2/2/poster.jpg" alt="poster" height="280" />
+<img src="./example/outputs_2/0/poster.jpg" alt="poster" height="250" /><img src="./example/outputs_2/2/poster.jpg" alt="poster" height="250" />
 
 
 
@@ -108,17 +108,17 @@ torchvision=0.11.0
 
 we also output some intermediate processing files in `./example/outputs`:
 
-<img src="./bk_image_folder/-SdD0KbD7N0.png" alt="-SdD0KbD7N0" height="280" /><img src="./example/outputs_1/0/saliency_map_with-smooth.jpg" alt="saliency_map_with-smooth" height="280" />
+<img src="./bk_image_folder/-SdD0KbD7N0.png" alt="-SdD0KbD7N0" height="250" /><img src="./example/outputs_1/0/saliency_map_with-smooth.jpg" alt="saliency_map_with-smooth" height="250" />
 
 - **Right image**: The original background image.
 - **Left image**: Saliency map (**blue**) with smooth region map (**red**).
 
-<img src="./example/outputs_1/0/layout_distribution.jpg" alt="layout_distribution" height="280" /><img src="./example/outputs_1/0/saliency_map_with-layout-distribution.jpg" alt="saliency_map_with-smooth" height="280" />
+<img src="./example/outputs_1/0/layout_distribution.jpg" alt="layout_distribution" height="250" /><img src="./example/outputs_1/0/saliency_map_with-layout-distribution.jpg" alt="saliency_map_with-smooth" height="250" />
 
 - **Right image**: The prediction of layout distribution map.
 - **Left image**: Saliency map (**blue**) with predicted layout distribution map (**red**). 
 
-<img src="./example/outputs_1/0/initial_layout.jpg" alt="initial_layout" height="280" /><img src="./example/outputs_1/0/refined_layout.jpg" alt="refined_layout" height="280" />
+<img src="./example/outputs_1/0/initial_layout.jpg" alt="initial_layout" height="250" /><img src="./example/outputs_1/0/refined_layout.jpg" alt="refined_layout" height="250" />
 
 - **Right image**: Initial layout map. 
 - **Left image**: Refined layout map. 
