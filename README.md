@@ -35,6 +35,22 @@ Some parameters:
 
 
 
+We also provide the following examples:
+
+- **Layout distribution prediction**
+
+```python
+python layout_distribution_predict.py
+```
+
+- **Layout refinement**
+
+```python
+python layout_refine.py
+```
+
+
+
 ## Tips
 
 ### Something about our background image retrieval
@@ -71,7 +87,9 @@ torchvision=0.11.0
 <img src="example/outputs_1/0/poster.jpg" alt="poster" style="zoom:40%;" /><img src="example/outputs_1/1/poster.jpg" alt="poster" style="zoom:40%;" />
 
 
+
 **input text elements 2**
+
 ```json
 {
     "sentences": [
@@ -85,7 +103,36 @@ torchvision=0.11.0
 <img src="example/outputs_2/0/poster.jpg" alt="poster" style="zoom:33.4%;" /><img src="example/outputs_2/2/poster.jpg" alt="poster" style="zoom:40%;" />
 
 
+
+## Some process
+
+we also output some intermediate processing files in `./example/outputs`:
+
+<img src="/Users/jinchuhao/machine learning/海报生成_期刊/Text2Poster-开源/Text2Poster-public/README.assets/-SdD0KbD7N0.png" alt="-SdD0KbD7N0" style="zoom:40%;" /><img src="/Users/jinchuhao/machine learning/海报生成_期刊/Text2Poster-开源/Text2Poster-public/README.assets/saliency_map_with-smooth-3241639.jpg" alt="saliency_map_with-smooth" style="zoom:40%;" />
+
+- **Right image**: The original background image.
+- **Left image**: Saliency map (**blue**) with smooth region map (**red**).
+
+<img src="/Users/jinchuhao/machine learning/海报生成_期刊/Text2Poster-开源/Text2Poster-public/README.assets/layout_distribution.jpg" alt="layout_distribution" style="zoom:40%;" /><img src="/Users/jinchuhao/machine learning/海报生成_期刊/Text2Poster-开源/Text2Poster-public/README.assets/saliency_map_with-layout-distribution.jpg" alt="saliency_map_with-smooth" style="zoom:40%;" />
+
+- **Right image**: The prediction of layout distribution map.
+- **Left image**: Saliency map (**blue**) with predicted layout distribution map (**red**). 
+
+<img src="/Users/jinchuhao/machine learning/海报生成_期刊/Text2Poster-开源/Text2Poster-public/README.assets/initial_layout.jpg" alt="initial_layout" style="zoom:40%;" /><img src="/Users/jinchuhao/machine learning/海报生成_期刊/Text2Poster-开源/Text2Poster-public/README.assets/refined_layout.jpg" alt="refined_layout" style="zoom:40%;" />
+
+- **Right image**: Initial layout map. 
+- **Left image**: Refined layout map. 
+
+**Blue region**: The saliency map;
+
+**Green region**: The predicted layout distribution map;
+
+**Red region**: the predicted layout map.
+
+
+
 ## Reference
+
 ```bibtex
 @inproceedings{jin2022text2poster,
   title={Text2Poster: Laying Out Stylized Texts on Retrieved Images},
