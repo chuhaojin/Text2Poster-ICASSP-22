@@ -84,7 +84,7 @@ torchvision=0.11.0
 }
 ```
 
-<img src="example/outputs_1/0/poster.jpg" alt="poster" style="zoom:40%;" /><img src="example/outputs_1/1/poster.jpg" alt="poster" style="zoom:40%;" />
+<img src="./example/outputs_1/0/poster.jpg" alt="poster" style="zoom:40%;" /><img src="./example/outputs_1/1/poster.jpg" alt="poster" style="zoom:40%;" />
 
 
 
@@ -100,7 +100,7 @@ torchvision=0.11.0
 }
 ```
 
-<img src="example/outputs_2/0/poster.jpg" alt="poster" style="zoom:33.4%;" /><img src="example/outputs_2/2/poster.jpg" alt="poster" style="zoom:40%;" />
+<img src="./example/outputs_2/0/poster.jpg" alt="poster" style="zoom:33.4%;" /><img src="./example/outputs_2/2/poster.jpg" alt="poster" style="zoom:40%;" />
 
 
 
