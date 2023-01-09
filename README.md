@@ -131,16 +131,27 @@ we also output some intermediate processing files in `./example/outputs`:
 
 
 
-## Reference
+## Citation
+
+If you find this paper and repo useful, please cite us in your work:
 
 ```bibtex
-@inproceedings{jin2022text2poster,
-  title={Text2Poster: Laying Out Stylized Texts on Retrieved Images},
-  author={Jin, Chuhao and Xu, Hongteng and Song, Ruihua and Lu, Zhiwu},
-  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={4823--4827},
-  year={2022},
-  organization={IEEE}
+@inproceedings{DBLP:conf/icassp/JinXSL22,
+  author    = {Chuhao Jin and
+               Hongteng Xu and
+               Ruihua Song and
+               Zhiwu Lu},
+  title     = {Text2Poster: Laying Out Stylized Texts on Retrieved Images},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing,
+               {ICASSP} 2022, Virtual and Singapore, 23-27 May 2022},
+  pages     = {4823--4827},
+  publisher = {{IEEE}},
+  year      = {2022},
+  url       = {https://doi.org/10.1109/ICASSP43922.2022.9747465},
+  doi       = {10.1109/ICASSP43922.2022.9747465},
+  timestamp = {Tue, 07 Jun 2022 17:34:56 +0200},
+  biburl    = {https://dblp.org/rec/conf/icassp/JinXSL22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
