@@ -49,7 +49,7 @@ Some parameters:
 
 
 
-We also provide the following examples:
+### **We also provide the following examples:**
 
 - **background image retrieval**
 
