@@ -51,6 +51,12 @@ Some parameters:
 
 We also provide the following examples:
 
+- **background image retrieval**
+
+```
+python background_retrieval.py
+```
+
 - **Layout distribution prediction**
 
 ```python
@@ -70,18 +76,14 @@ python layout_refine.py
 ### Something about our background image retrieval
 
 - Our background image retrieval is implemented by a Chinese pre-trained  text-image retrieval model [BriVL](https://github.com/BAAI-WuDao/BriVL).
-- You also can extract text and image embedding by the API of BriVL at  [here](https://github.com/chuhaojin/WenLan-api-document). 
-- A text-image retrieval application is provided at [here](http://1.13.255.9:8889). The core code of this application at [here](https://github.com/chuhaojin/BriVL-BUA-applications).
+- ~~You can extract text and image embedding by the API of BriVL at  [here](https://github.com/chuhaojin/WenLan-api-document).~~ The API server has been retired in 2023.01.09.
+- A text-image retrieval application is provided at [http://1.13.255.9:8889](http://1.13.255.9:8889). The core code of this application at [https://github.com/chuhaojin/BriVL-BUA-applications](https://github.com/chuhaojin/BriVL-BUA-applications).
 
 
 
-## Requirements
+## News
 
-python==3.7
-
-pytorch=1.10.0
-
-torchvision=0.11.0
+- **[2023.01.10]** We update the background image retrieval website to [http://1.13.255.9:8889](http://1.13.255.9:8889). The original website *buling.wudaoai.cn* has been retired in 2023.01.09.
 
 
 
@@ -142,6 +144,28 @@ we also output some intermediate processing files in `./example/outputs`:
 **Green region**: The predicted layout distribution map;
 
 **Red region**: the predicted layout map.
+
+
+
+## Requirements
+
+python==3.7
+
+pytorch=1.10.0
+
+torchvision=0.11.0
+
+freetype-py
+
+opencv_contrib_python
+
+requests
+
+jsonlines
+
+tqdm
+
+argparse
 
 
 

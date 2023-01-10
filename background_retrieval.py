@@ -15,6 +15,7 @@ def bk_img_retrieval(text, local_image_folder = "./bk_image_folder"):
     # The image retrieval API based on our BriVL model and unsplash.com.
     # This API only runs in Chinese Mainland. 
     # You can consider using the BriVL model to build this service yourself, or use VPN to access it.
+    # Domain [buling.wudaoai.cn] retired in 2023-01-09.
     # url = "http://buling.wudaoai.cn/t2i_query"
     url = "http://1.13.255.9:8889/t2i_query"
     response = requests.get(url, params={"text": text})
