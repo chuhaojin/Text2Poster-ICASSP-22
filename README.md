@@ -1,5 +1,5 @@
 # Text2Poster-ICASSP-22
-The inference code of the ICASPP-2022 paper "Text2Poster: Laying Out Stylized Texts on Retrieved Images".
+The inference code of the ICASSP-2022 paper "Text2Poster: Laying Out Stylized Texts on Retrieved Images".
 
 ![framework](framework.png)
 
