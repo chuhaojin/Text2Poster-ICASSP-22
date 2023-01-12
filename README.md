@@ -31,6 +31,18 @@ pip install tqdm
 
 
 
+## Download
+
+We provide the following resource:
+
+- Weights of layout refine model: ```./checkpoint/0.20484_Cascading_128_uniform_big.pth```;
+- Weights of layout distribution prediction model: ```./checkpoint/27.80619_distribCNN_BigPosition_epoch_76_scale_20.pth```;
+- Weights of text encoder of BriVL: [brivl-textencoder-weights.pth](https://drive.google.com/drive/folders/18qYZu7TfKpngXuHW9pmkWUn8dK2YPSVW) -> ```./background_retriever/weights/```;
+-  Unsplash images features (extracted by BriVL): [wenlan_unsplash_feats.npy](https://drive.google.com/drive/folders/18qYZu7TfKpngXuHW9pmkWUn8dK2YPSVW) -> ```./background_retriever/background_feats/```;
+- URL of background images: ```./background_retriever/background_feats/unsplash_image_url.jsonl```.
+
+
+
 # Running
 
 We provide two example, Run the following command to run our Text2Poster:
@@ -51,10 +63,17 @@ Some parameters:
 
 ### **We also provide the following examples:**
 
-- **background image retrieval**
+- **background image retrieval （from API）**
 
 ```
 python background_retrieval.py
+```
+
+- **background image retrieval （from source code）**
+
+```sh
+cd background_retriever
+python main.py
 ```
 
 - **Layout distribution prediction**

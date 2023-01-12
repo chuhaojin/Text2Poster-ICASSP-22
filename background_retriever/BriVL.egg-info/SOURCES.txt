@@ -1,0 +1,15 @@
+README.md
+setup.py
+BriVL.egg-info/PKG-INFO
+BriVL.egg-info/SOURCES.txt
+BriVL.egg-info/dependency_links.txt
+BriVL.egg-info/top_level.txt
+dataset/__init__.py
+dataset/xybDataset.py
+models/__init__.py
+models/bert.py
+models/fakeTransformer.py
+models/vl_model.py
+utils/__init__.py
+utils/config.py
+utils/loss.py
