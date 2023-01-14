@@ -100,6 +100,12 @@ python layout_distribution_predict.py
 python layout_refine.py
 ```
 
+- **Download images from Unsplash**
+
+```sh
+python ./background_retriever/unsplash_image_downloader.py
+```
+
 
 
 ## Tips
