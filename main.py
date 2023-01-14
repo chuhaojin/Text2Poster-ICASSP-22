@@ -13,7 +13,7 @@ import cv2
 import numpy as np
 import os
 from tqdm import tqdm
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # retrieve the background image based on given text.
 from background_retrieval import bk_img_retrieval
