@@ -9,7 +9,7 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 ## News
 
-- **[2023.1.14]** We provide our image retrieval source code and data for the convenience of people who are not in mainland China to use our Text2Poster. You can retrieve the background image based on ```./background_retriever``` locally, You can retrieve the background image locally, which requires about 3GB of GPU memory.
+- **[2023.1.14]** We provide our image retrieval source code and data in  ```./background_retriever``` for the convenience of people who are not in mainland China to use our Text2Poster. You can retrieve the background image locally, which requires about 3GB of GPU memory.
 - **[2023.01.10]** We update the background image retrieval website to [http://1.13.255.9:8889](http://1.13.255.9:8889). The original website *buling.wudaoai.cn* has been retired in 2023.01.09.
 
 
