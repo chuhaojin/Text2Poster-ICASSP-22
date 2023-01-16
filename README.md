@@ -33,9 +33,7 @@ f.close()
 
 ### Generated Posters:
 
-<img src="./poster-20230117000304.jpg" alt="poster" height="300" align='left'/>
-
-
+<img src="./poster-20230117000304.jpg" alt="poster" height="260"/><img src="./poster-20230117002210.jpg" alt="poster" height="260"/>
 
 
 
