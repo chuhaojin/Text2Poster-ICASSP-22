@@ -164,7 +164,7 @@ python ./background_retriever/unsplash_image_downloader.py
 }
 ```
 
-<img src="./example/outputs_3/2/poster.jpg" alt="poster" height="300" /> <img src="./example/outputs_3/1/poster.jpg" alt="poster" height="300" /> 
+<img src="./example/outputs_3/3/poster.jpg" alt="poster" height="260" /> <img src="./example/outputs_3/1/poster.jpg" alt="poster" height="260" /> 
 
 
 
