@@ -122,6 +122,8 @@ python ./background_retriever/unsplash_image_downloader.py
 # Examples
 **input text elements 1**
 
+**55, 40 and 30 is the font size.**
+
 ```json
 {
     "sentences": [
@@ -139,6 +141,8 @@ python ./background_retriever/unsplash_image_downloader.py
 
 **input text elements 2**
 
+**80 and 55 is the font size.**
+
 ```json
 {
     "sentences": [
@@ -154,6 +158,8 @@ python ./background_retriever/unsplash_image_downloader.py
 
 
 **input text elements 3**
+
+**90 and 50 is the font size.**
 
 ```json
 {
