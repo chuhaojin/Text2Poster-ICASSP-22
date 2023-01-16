@@ -1,7 +1,7 @@
 {
     "sentences": [
-        ["ICASSP 2022", 55],
-        ["May 22 - 27, 2022, Singapore", 40]
+        ["ICASSP 2022", 80],
+        ["May 22 - 27, 2022, Singapore", 55]
     ],
-    "background_query": "新加坡"
+    "background_query": "Singapore"
 }

@@ -121,6 +121,7 @@ python ./background_retriever/unsplash_image_downloader.py
 
 # Examples
 **input text elements 1**
+
 ```json
 {
     "sentences": [
@@ -141,14 +142,14 @@ python ./background_retriever/unsplash_image_downloader.py
 ```json
 {
     "sentences": [
-        ["ICASSP 2022", 55],
-        ["May 22 - 27, 2022, Singapore", 40]
+        ["ICASSP 2022", 80],
+        ["May 22 - 27, 2022, Singapore", 55]
     ],
     "background_query": "Singapore"
 }
 ```
 
-<img src="./example/outputs_2/0/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_2/2/poster.jpg" alt="poster" height="250" /> 
+<img src="./example/outputs_2/1/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_2/2/poster.jpg" alt="poster" height="250" /> 
 
 
 
