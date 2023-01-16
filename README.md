@@ -7,6 +7,63 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 
 
+# Examples
+
+**input text elements 1**
+
+**55, 40 and 30 is the font size.**
+
+```json
+{
+    "sentences": [
+        ["冬日初雪舞会", 55],
+        ["雪花飞舞，像音乐和歌声围绕", 40],
+        ["与朋友相聚，享受欢乐时光，我们不见不散", 30]
+    ],
+    "background_query": "冬日初雪舞会"
+}
+```
+
+<img src="./example/outputs_1/0/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_1/1/poster.jpg" alt="poster" height="250" />
+
+
+
+**input text elements 2**
+
+**80 and 55 is the font size.**
+
+```json
+{
+    "sentences": [
+        ["ICASSP 2022", 80],
+        ["May 22 - 27, 2022, Singapore", 55]
+    ],
+    "background_query": "Singapore"
+}
+```
+
+<img src="./example/outputs_2/1/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_2/2/poster.jpg" alt="poster" height="250" /> 
+
+
+
+**input text elements 3**
+
+**90 and 50 is the font size.**
+
+```json
+{
+    "sentences": [
+        ["桜が咲く", 90],
+        ["出会いは素晴らしい春に", 50]
+    ],
+    "background_query": "春の美しい桜"
+}
+```
+
+<img src="./example/outputs_3/3/poster.jpg" alt="poster" height="260" /> <img src="./example/outputs_3/1/poster.jpg" alt="poster" height="260" /> 
+
+
+
 ## News
 
 - **[2023.1.16]** We add a machine translation API to the image retrieval interface. We convert all input languages to Chinese so that they can be understood by the BriVL model. **Now you can try to retrieve background images in any language!!**
@@ -109,72 +166,6 @@ python ./background_retriever/unsplash_image_downloader.py
 
 
 
-## Tips
-
-### Something about our background image retrieval
-
-- Our background image retrieval is implemented by a Chinese pre-trained  text-image retrieval model [BriVL](https://github.com/BAAI-WuDao/BriVL).
-- ~~You can extract text and image embedding by the API of BriVL at  [here](https://github.com/chuhaojin/WenLan-api-document).~~ The API server has been retired in 2023.01.09.
-- A text-image retrieval application is provided at [http://1.13.255.9:8889](http://1.13.255.9:8889). The core code of this application at [https://github.com/chuhaojin/BriVL-BUA-applications](https://github.com/chuhaojin/BriVL-BUA-applications).
-
-
-
-# Examples
-**input text elements 1**
-
-**55, 40 and 30 is the font size.**
-
-```json
-{
-    "sentences": [
-        ["冬日初雪舞会", 55],
-        ["雪花飞舞，像音乐和歌声围绕", 40],
-        ["与朋友相聚，享受欢乐时光，我们不见不散", 30]
-    ],
-    "background_query": "冬日初雪舞会"
-}
-```
-
-<img src="./example/outputs_1/0/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_1/1/poster.jpg" alt="poster" height="250" />
-
-
-
-**input text elements 2**
-
-**80 and 55 is the font size.**
-
-```json
-{
-    "sentences": [
-        ["ICASSP 2022", 80],
-        ["May 22 - 27, 2022, Singapore", 55]
-    ],
-    "background_query": "Singapore"
-}
-```
-
-<img src="./example/outputs_2/1/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_2/2/poster.jpg" alt="poster" height="250" /> 
-
-
-
-**input text elements 3**
-
-**90 and 50 is the font size.**
-
-```json
-{
-    "sentences": [
-        ["桜が咲く", 90],
-        ["出会いは素晴らしい春に", 50]
-    ],
-    "background_query": "春の美しい桜"
-}
-```
-
-<img src="./example/outputs_3/3/poster.jpg" alt="poster" height="260" /> <img src="./example/outputs_3/1/poster.jpg" alt="poster" height="260" /> 
-
-
-
 ## Some output during process
 
 we also output some intermediate processing files in `./example/outputs`:
@@ -201,6 +192,16 @@ we also output some intermediate processing files in `./example/outputs`:
 **Red region**: the predicted layout map.
 
 
+
+## Tips
+
+### Something about our background image retrieval
+
+- Our background image retrieval is implemented by a Chinese pre-trained  text-image retrieval model [BriVL](https://github.com/BAAI-WuDao/BriVL).
+- ~~You can extract text and image embedding by the API of BriVL at  [here](https://github.com/chuhaojin/WenLan-api-document).~~ The API server has been retired in 2023.01.09.
+- A text-image retrieval application is provided at [http://1.13.255.9:8889](http://1.13.255.9:8889). The core code of this application at [https://github.com/chuhaojin/BriVL-BUA-applications](https://github.com/chuhaojin/BriVL-BUA-applications).
+
+# 
 
 ## Requirements
 
