@@ -9,9 +9,9 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 # Examples
 
-**input text elements 1**
+- **input text elements 1**
 
-**55, 40 and 30 is the font size.**
+**55, 40 and 30 are the font size.**
 
 ```json
 {
@@ -24,13 +24,15 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 }
 ```
 
+- **output  posters**
+
 <img src="./example/outputs_1/0/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_1/1/poster.jpg" alt="poster" height="250" />
 
 
 
-**input text elements 2**
+- **input text elements 2**
 
-**80 and 55 is the font size.**
+**80 and 55 are the font size.**
 
 ```json
 {
@@ -42,13 +44,15 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 }
 ```
 
+**output  posters**
+
 <img src="./example/outputs_2/1/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_2/2/poster.jpg" alt="poster" height="250" /> 
 
 
 
-**input text elements 3**
+- **input text elements 3**
 
-**90 and 50 is the font size.**
+**90 and 50 are the font size.**
 
 ```json
 {
@@ -59,6 +63,8 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
     "background_query": "春の美しい桜"
 }
 ```
+
+**output  posters**
 
 <img src="./example/outputs_3/3/poster.jpg" alt="poster" height="260" /> <img src="./example/outputs_3/1/poster.jpg" alt="poster" height="260" /> 
 
