@@ -144,11 +144,27 @@ python ./background_retriever/unsplash_image_downloader.py
         ["ICASSP 2022", 55],
         ["May 22 - 27, 2022, Singapore", 40]
     ],
-    "background_query": "新加坡"
+    "background_query": "Singapore"
 }
 ```
 
 <img src="./example/outputs_2/0/poster.jpg" alt="poster" height="250" /> <img src="./example/outputs_2/2/poster.jpg" alt="poster" height="250" /> 
+
+
+
+**input text elements 3**
+
+```json
+{
+    "sentences": [
+        ["桜が咲く", 55],
+        ["出会いは素晴らしい春に", 40]
+    ],
+    "background_query": "春の美しい桜"
+}
+```
+
+<img src="./example/outputs_3/2/poster.jpg" alt="poster" height="300" /> <img src="./example/outputs_3/1/poster.jpg" alt="poster" height="300" /> 
 
 
 
