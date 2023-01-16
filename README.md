@@ -157,8 +157,8 @@ python ./background_retriever/unsplash_image_downloader.py
 ```json
 {
     "sentences": [
-        ["桜が咲く", 55],
-        ["出会いは素晴らしい春に", 40]
+        ["桜が咲く", 90],
+        ["出会いは素晴らしい春に", 50]
     ],
     "background_query": "春の美しい桜"
 }
