@@ -110,7 +110,7 @@ f.close()
 
 
 
-# Start from Source code
+# Start from Source Code
 
 ## Install
 
@@ -205,7 +205,7 @@ python ./background_retriever/unsplash_image_downloader.py
 
 
 
-## Some output during process
+## Some Output During Process
 
 we also output some intermediate processing files in `./example/outputs`:
 
