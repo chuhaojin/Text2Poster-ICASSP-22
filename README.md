@@ -9,6 +9,7 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 ## News
 
+- **[2023.1.16]** We add a machine translation API to the image retrieval interface. We convert all input languages to Chinese so that they can be understood by the BriVL model. **Now you can try to retrieve background images in any language!!**
 - **[2023.1.15]** We provide an unsplash image download script in ```./background_retriever/unsplash_image_downloader.py```, you can use this script to get those background image files based on the retrieved image urls.
 - **[2023.1.14]** We provide our image retrieval source code and data in  ```./background_retriever``` for the convenience of people who are not in mainland China to use our Text2Poster. You can retrieve the background image locally, which requires about 3GB of GPU memory.
 - **[2023.01.10]** We update the background image retrieval website to [http://1.13.255.9:8889](http://1.13.255.9:8889). The original website *buling.wudaoai.cn* has been retired in 2023.01.09.
