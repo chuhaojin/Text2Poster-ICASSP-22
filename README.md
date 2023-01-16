@@ -29,6 +29,7 @@ response = requests.get(api_url, params = {"input_text_elements": input_text_ele
 f = open("poster-{}.jpg".format(timestamp), "wb")
 f.write(response.content)
 f.close()
+print("Save poster to:", "poster-{}.jpg".format(timestamp))
 ```
 
 ### Generated Posters:
