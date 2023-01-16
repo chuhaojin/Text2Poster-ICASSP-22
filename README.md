@@ -110,7 +110,9 @@ f.close()
 
 
 
-## Run from Source code
+# Start from Source code
+
+## Install
 
 We recommend you use anaconda to run our Text2Poster. Run the following command to install the dependent libraries:
 
