@@ -7,7 +7,37 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 
 
-# Examples
+# Quick Start from API
+
+### We provide a quick start via Text2Poster's API, you can try our Text2Poster without any resource download：
+
+```python
+import os, time, json, requests
+timestamp = time.strftime('%Y%m%d%H%M%S',time.localtime(time.time())) 
+
+input_text_elements = {
+    "sentences": [
+        ["CHILDREN'S DAY", 90], # [text, font_fize]
+        ["Children are The Future of Nation", 50] # [text, font_fize]
+    ],
+    "background_query": "Children's Day!" # sentence used to retrieve background images.
+}
+
+input_text_elements = json.dumps(input_text_elements)
+api_url = "http://1.13.255.9:8889/text2poster"
+response = requests.get(api_url, params = {"input_text_elements": input_text_elements})
+f = open("poster-{}.jpg".format(timestamp), "wb")
+f.write(response.content)
+f.close()
+```
+
+### Generated Posters:
+
+<img src="./poster-20230117000304.jpg" alt="poster" height="300" align='left'/>
+
+
+
+# More Examples
 
 - **input text elements 1**
 
@@ -72,6 +102,7 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 ## News
 
+- **[2023.1.17]** We provide an API for Text2Poster, you can quickly start our Text2Poster without any resource download.
 - **[2023.1.16]** We add a machine translation API to translate all the input texts into Chinese. So that the BriVL model could deal with all languages. **Now you can try to retrieve background images in any language!!**
 - **[2023.1.15]** We provide an unsplash image download script in ```./background_retriever/unsplash_image_downloader.py```, you can use this script to get those background image files based on the retrieved image urls.
 - **[2023.1.14]** We provide our image retrieval source code and data in  ```./background_retriever``` for the convenience of people who are not in mainland China to use our Text2Poster. You can retrieve the background image locally, which requires about 3GB of GPU memory.
@@ -79,7 +110,7 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 
 
-## Install
+## Run from Source code
 
 We recommend you use anaconda to run our Text2Poster. Run the following command to install the dependent libraries:
 
