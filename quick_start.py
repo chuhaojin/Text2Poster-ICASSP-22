@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 '''
-@File    :   poster_api_test.py
+@File    :   quick_start.py
 @Time    :   2023/01/16 23:15:11
 @Author  :   Chuhao Jin
 @Email   :   jinchuhao@ruc.edu.cn

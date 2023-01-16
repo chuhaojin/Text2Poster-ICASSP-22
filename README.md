@@ -9,7 +9,7 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 # Quick Start from API
 
-### We provide a quick start via Text2Poster's API, you can try our Text2Poster without any resource download：
+### Just run the following code to quick start:
 
 ```python
 import os, time, json, requests
