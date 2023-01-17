@@ -7,6 +7,20 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chuhaojin/Text2Poster-ICASSP-22&type=Date)](https://star-history.com/#chuhaojin/Text2Poster-ICASSP-22&Date)
+
+## News
+
+- **[2023.1.17]** We provide an API for Text2Poster, you can quickly start our Text2Poster without any resource download.
+- **[2023.1.16]** We add a machine translation API to translate all the input texts into Chinese. So that the BriVL model could deal with all languages. **Now you can try to retrieve background images in any language!!**
+- **[2023.1.15]** We provide an unsplash image download script in ```./background_retriever/unsplash_image_downloader.py```, you can use this script to get those background image files based on the retrieved image urls.
+- **[2023.1.14]** We provide our image retrieval source code and data in  ```./background_retriever``` for the convenience of people who are not in mainland China to use our Text2Poster. You can retrieve the background image locally, which requires about 3GB of GPU memory.
+- **[2023.01.10]** We update the background image retrieval website to [http://1.13.255.9:8889](http://1.13.255.9:8889). The original website *buling.wudaoai.cn* has been retired in 2023.01.09.
+
+
+
 # Quick Start from API
 
 ### Just run the following code to quick start:
@@ -98,16 +112,6 @@ print("Save poster to:", "poster-{}.jpg".format(timestamp))
 **output  posters**
 
 <img src="./example/outputs_3/3/poster.jpg" alt="poster" height="260" /> <img src="./example/outputs_3/1/poster.jpg" alt="poster" height="260" /> 
-
-
-
-## News
-
-- **[2023.1.17]** We provide an API for Text2Poster, you can quickly start our Text2Poster without any resource download.
-- **[2023.1.16]** We add a machine translation API to translate all the input texts into Chinese. So that the BriVL model could deal with all languages. **Now you can try to retrieve background images in any language!!**
-- **[2023.1.15]** We provide an unsplash image download script in ```./background_retriever/unsplash_image_downloader.py```, you can use this script to get those background image files based on the retrieved image urls.
-- **[2023.1.14]** We provide our image retrieval source code and data in  ```./background_retriever``` for the convenience of people who are not in mainland China to use our Text2Poster. You can retrieve the background image locally, which requires about 3GB of GPU memory.
-- **[2023.01.10]** We update the background image retrieval website to [http://1.13.255.9:8889](http://1.13.255.9:8889). The original website *buling.wudaoai.cn* has been retired in 2023.01.09.
 
 
 
