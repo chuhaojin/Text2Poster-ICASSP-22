@@ -158,7 +158,7 @@ We provide the following resource to start Text2Poster:
 
 
 
-**[Not required] **Although we provide an **API for background image retrieval**, **if you want to retrieve background images from the source code,** you need to download the following resources:
+**[Not required]** Although we provide an **API for background image retrieval**, **if you want to retrieve background images from the source code,** you need to download the following resources:
 
 - Weights of text encoder of BriVL: [brivl-textencoder-weights.pth](https://drive.google.com/drive/folders/18qYZu7TfKpngXuHW9pmkWUn8dK2YPSVW) -> ```./background_retriever/weights/```;
 -  Unsplash images features (extracted by BriVL): [wenlan_unsplash_feats.npy](https://drive.google.com/drive/folders/18qYZu7TfKpngXuHW9pmkWUn8dK2YPSVW) -> ```./background_retriever/background_feats/```;
