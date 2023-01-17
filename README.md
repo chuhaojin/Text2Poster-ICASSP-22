@@ -151,10 +151,15 @@ pip install timm
 
 ## Download
 
-We provide the following resource:
+We provide the following resource to start Text2Poster:
 
 - Weights of layout refine model: ```./checkpoint/0.20484_Cascading_128_uniform_big.pth```;
 - Weights of layout distribution prediction model: ```./checkpoint/27.80619_distribCNN_BigPosition_epoch_76_scale_20.pth```;
+
+
+
+**[Not required] **Although we provide an **API for background image retrieval**, **if you want to retrieve background images from the source code,** you need to download the following resources:
+
 - Weights of text encoder of BriVL: [brivl-textencoder-weights.pth](https://drive.google.com/drive/folders/18qYZu7TfKpngXuHW9pmkWUn8dK2YPSVW) -> ```./background_retriever/weights/```;
 -  Unsplash images features (extracted by BriVL): [wenlan_unsplash_feats.npy](https://drive.google.com/drive/folders/18qYZu7TfKpngXuHW9pmkWUn8dK2YPSVW) -> ```./background_retriever/background_feats/```;
 - URL of background images: ```./background_retriever/background_feats/unsplash_image_url.jsonl```.
