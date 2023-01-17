@@ -11,6 +11,10 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chuhaojin/Text2Poster-ICASSP-22&type=Date)](https://star-history.com/#chuhaojin/Text2Poster-ICASSP-22&Date)
 
+##### If you like this project, please give it a star! It would be a great encouragement for me and help me to continue improving it.
+
+
+
 ## News
 
 - **[2023.1.17]** We provide an API for Text2Poster, you can quickly start our Text2Poster without any resource download.
