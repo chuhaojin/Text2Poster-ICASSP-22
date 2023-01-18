@@ -12,8 +12,8 @@ timestamp = time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
 
 input_text_elements = {
     "sentences": [
-        ["CHILDREN'S DAY", 90], # [text, font_fize]
-        ["Children are The Future of Nation", 50] # [text, font_fize]
+        ["CHILDREN'S DAY", 90], # [text, font_size]
+        ["Children are The Future of Nation", 50] # [text, font_size]
     ],
     "background_query": "Children's Day!" # sentence used to retrieve background images.
 }
