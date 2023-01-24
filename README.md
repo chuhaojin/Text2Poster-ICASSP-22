@@ -17,6 +17,7 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 
 ## News
 
+- **[2023.1.24]** Update "http://1.13.255.9" to "http://bl.mmd.ac.cn".
 - **[2023.1.17]** We provide an API for Text2Poster, you can quickly start our Text2Poster without any resource download.
 - **[2023.1.16]** We add a machine translation API to translate all the input texts into Chinese. So that the BriVL model could deal with all languages. **Now you can try to retrieve background images in any language!!**
 - **[2023.1.15]** We provide an unsplash image download script in ```./background_retriever/unsplash_image_downloader.py```, you can use this script to get those background image files based on the retrieved image urls.
