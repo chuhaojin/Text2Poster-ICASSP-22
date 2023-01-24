@@ -42,7 +42,7 @@ input_text_elements = {
 }
 
 input_text_elements = json.dumps(input_text_elements)
-api_url = "http://1.13.255.9:8889/text2poster"
+api_url = "http://bl.mmd.ac.cn:8889/text2poster"
 response = requests.get(api_url, params = {"input_text_elements": input_text_elements})
 f = open("poster-{}.jpg".format(timestamp), "wb")
 f.write(response.content)
