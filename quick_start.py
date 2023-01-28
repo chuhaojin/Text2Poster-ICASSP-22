@@ -7,7 +7,7 @@
 '''
 
 # here put the import lib
-import os, time, json, requests
+import time, json, requests
 timestamp = time.strftime('%Y%m%d%H%M%S',time.localtime(time.time())) 
 
 input_text_elements = {

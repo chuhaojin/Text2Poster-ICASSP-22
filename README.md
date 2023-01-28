@@ -31,7 +31,7 @@ Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
 ### Just run the following code to quick start:
 
 ```python
-import os, time, json, requests
+import time, json, requests
 timestamp = time.strftime('%Y%m%d%H%M%S',time.localtime(time.time())) 
 
 input_text_elements = {
