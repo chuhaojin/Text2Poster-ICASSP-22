@@ -21,7 +21,10 @@ input_text_elements = {
 input_text_elements = json.dumps(input_text_elements)
 api_url = "http://bl.mmd.ac.cn:8889/text2poster"
 response = requests.get(api_url, params = {"input_text_elements": input_text_elements})
-f = open("poster-{}.jpg".format(timestamp), "wb")
-f.write(response.content)
-f.close()
-print("Save poster to:", "poster-{}.jpg".format(timestamp))
+if response.status_code == 200:
+    f = open("poster-{}.jpg".format(timestamp), "wb")
+    f.write(response.content)
+    f.close()
+    print("Save poster to:", "poster-{}.jpg".format(timestamp))
+else:
+    print(response.text)
