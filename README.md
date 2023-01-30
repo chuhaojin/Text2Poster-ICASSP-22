@@ -3,7 +3,7 @@ The inference code of the ICASSP-2022 paper "Text2Poster: Laying Out Stylized Te
 
 ![framework](framework.png)
 
-Paper Link: https://ieeexplore.ieee.org/abstract/document/9747465
+Paper Link: https://arxiv.org/abs/2301.02363
 
 
 
