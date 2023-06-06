@@ -26,34 +26,6 @@ Paper Link: https://arxiv.org/abs/2301.02363
 
 
 
-# Quick Start from API
-
-### Just run the following code to quick start:
-
-```python
-import time, json, requests
-timestamp = time.strftime('%Y%m%d%H%M%S',time.localtime(time.time())) 
-
-input_text_elements = {
-    "sentences": [
-        ["CHILDREN'S DAY", 90], # [text, font_size]
-        ["Children are The Future of Nation", 50] # [text, font_size]
-    ],
-    "background_query": "Children's Day!" # sentence used to retrieve background images.
-}
-
-input_text_elements = json.dumps(input_text_elements)
-api_url = "http://bl.mmd.ac.cn:8889/text2poster"
-response = requests.get(api_url, params = {"input_text_elements": input_text_elements})
-if response.status_code == 200:
-    f = open("poster-{}.jpg".format(timestamp), "wb")
-    f.write(response.content)
-    f.close()
-    print("Save poster to:", "poster-{}.jpg".format(timestamp))
-else:
-    print(response.text)
-```
-
 ### Generated Posters:
 
 <img src="./poster-20230117000304.jpg" alt="poster" height="260"/> <img src="./poster-20230117002210.jpg" alt="poster" height="260"/> 
